@@ -18,6 +18,7 @@ namespace Model.Entities
         [ForeignKey(nameof(AwayClub))]
         public int IdAwayClub { get; set; }
         private Club AwayClub { get; }
+      
 
         // "Score"
         public string Result { get; set; }
